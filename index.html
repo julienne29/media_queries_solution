@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Media Queries Solution</title>
+  <title></title>
   <style>
       /* 1.
         apply global configs
@@ -20,6 +20,10 @@
       html, body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
+ 
+      /* p {
+        margin-bottom: 10px;
+      } */
     /* 3.
         - apply any background images from https://www.pexels.com/ (Note:* choose a landscape type of images)
         - all text to white
@@ -29,7 +33,7 @@
         - all text should place to center
     */
       .main-container {
-        background: url("media_queries_solution/images/autumn.jpeg") no-repeat center center/cover;
+        background: url("/images/autumn.jpeg") no-repeat center center/cover;
         color: #fff;
         height: 100vh;
         padding: 0 2rem 2rem 2rem;
@@ -61,7 +65,7 @@
         display: inline-block;
         text-decoration: none;
         background-color: #fff;
-        color: #333;
+        color: tomato;
         padding: 0.75rem 2rem;
         margin-top: 1rem;
       }
@@ -82,13 +86,12 @@
     */
       @media (max-width: 320px){
         .main-container {
-          background: url("../media_queries_solution/images/sakura.jpg") no-repeat center center/cover;
+          background: url("/images/sakura.jpg") no-repeat center center/cover;
           padding-top: 2rem;
         }
         h1, h3 {
           font-size: 1.5rem;
           margin: 0px 10px;
-          background-color:rgba(0, 0, 0, 0.4);
         }
         section{
           margin: 0;
@@ -104,7 +107,7 @@
       }
       @media (min-width: 321px) and (max-width: 375px){
         .main-container{
-          background: url("../media_queries_solution/images/road.jpeg") no-repeat center center/cover;
+          background: url("/images/road.jpeg") no-repeat center center/cover;
           padding-top: 2rem;
         }
         h1, h3 {
@@ -126,13 +129,13 @@
       }
       @media (min-width: 376px) and (max-width: 411px){
         .main-container{
-          background: url("../media_queries_solution/images/fall.jpeg") no-repeat center center/cover;
+          background: url("/images/fall.jpeg") no-repeat center center/cover;
           padding-top: 2rem;
         }
         h1, h3 {
           font-size: 2rem;
           margin: 5px 10px;
-/*           background-color:rgba(0, 0, 0, 0.4); */
+          background-color:rgba(0, 0, 0, 0.4);
         }
         section{
           margin: 0;
@@ -148,7 +151,7 @@
       }
         @media (min-width: 412px) and (max-width: 768px){
         .main-container{
-          background: url("../media_queries_solution/images/road2.jpeg") no-repeat center center/cover;
+          background: url("/images/road2.jpeg") no-repeat center center/cover;
           padding-top: 2rem;
         }
         h1, h3 {
@@ -170,7 +173,7 @@
       }
        @media (min-width: 769px){
          .main-container{
-           background: url("../media_queries_solution/images/leaves.jpeg") no-repeat center center/cover;
+           background: url("/images/leaves.jpeg") no-repeat center center/cover;
            padding-top: 2.5rem;
           }
          h1, h3 {
